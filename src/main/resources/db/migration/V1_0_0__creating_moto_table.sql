@@ -1,4 +1,4 @@
-CREATE TABLE moto1 (
+CREATE TABLE moto (
     id VARCHAR(40) PRIMARY KEY NOT NULL,
     name VARCHAR(255) NOT NULL,
     year_creation DATE NOT NULL,
