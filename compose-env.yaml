@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db-microservice-service-api:
+    image: postgres:14-alpine
+    ports:
+      - 5444:5432
+    environment:
+      POSTGRES_PASSWORD: suzuki
+      POSTGRES_USER: postgres
+      POSTGRES_DB: 2424

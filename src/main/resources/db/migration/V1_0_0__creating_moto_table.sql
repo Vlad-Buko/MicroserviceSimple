@@ -1,0 +1,6 @@
+CREATE TABLE moto1 (
+    id VARCHAR(40) PRIMARY KEY NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    year_creation DATE NOT NULL,
+    created_at TIMESTAMP NOT NULL
+)
