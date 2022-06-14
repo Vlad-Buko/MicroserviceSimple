@@ -10,7 +10,6 @@
     </parent>
     <groupId>com.proj.microv</groupId>
     <artifactId>MicroserviceSimple</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>MicroserviceSimple</name>
     <description>MicroserviceSimple</description>
     <properties>
