@@ -1,5 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5444/microservice-simple
+    url: jdbc:postgresql://${DATASOURCE_HOST:localhost}:5432/postgres
     username: postgres
     password: 2424
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher

@@ -1,6 +1,7 @@
 package com.proj.microv.microservicesimple.entity;
 
 import lombok.Data;
+import lombok.experimental.Accessors;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -13,10 +14,11 @@ import java.time.LocalDateTime;
 
 @Entity
 @Data
+@Accessors(chain = true)
 public class Moto {
     @Id
     private String id;
     private String name;
-    private LocalDate yearConnection;
+    private LocalDate yearCreation;
     private LocalDateTime createdAt;
 }
