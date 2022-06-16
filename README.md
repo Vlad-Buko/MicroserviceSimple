@@ -1,6 +1,6 @@
 # Microservice Simple
 
-Microservices repository created , and soon will be added microservices.
+Project, as trying new microservice.
 
 In this mini-projects used stack:
 - Spring Boot
